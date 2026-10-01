@@ -18,6 +18,9 @@ Vibe code allegations will not be tolerated :P
     --section-pad-x: clamp(1rem, 5vw, 4rem);
     --section-max: 72rem;
     --title-gap: clamp(1.75rem, 4vh, 3rem);
+
+    --bs-body-bg: #000;
+    color-scheme: dark;
 }
 
 /* Navbar */
@@ -138,6 +141,7 @@ body {
   overflow-x: hidden;
   opacity: 0;
   transition: opacity 1.2s ease-in;
+  background-color: #000;
 }
 
 body.loaded {
