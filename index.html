@@ -193,6 +193,13 @@ Vibe code allegations will not be tolerated :P
     </footer>
     <script>
         document.getElementById('footer-year').textContent = new Date().getFullYear();
+        
+        function showPage() {
+        document.body.classList.add('loaded');
+        }
+        
+        window.addEventListener('load', showPage);
+        setTimeout(showPage, 4000);
     </script>
 
 </body>
